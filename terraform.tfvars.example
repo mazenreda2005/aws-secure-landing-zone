@@ -1,0 +1,9 @@
+# Copy to terraform.tfvars and adjust. terraform.tfvars is git-ignored.
+region             = "us-east-1"
+alert_email        = "you@example.com"
+project_name       = "secure-lz"
+environment        = "dev"
+vpc_cidr           = "10.0.0.0/16"
+az_count           = 2
+enable_nat_gateway = false
+enable_guardduty   = true
